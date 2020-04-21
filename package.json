@@ -1,0 +1,39 @@
+{
+  "name": "@chimaera/cli",
+  "version": "0.1.0",
+  "description": "🧊 DevOps toolchain for multiple repos",
+  "author": "Richard Tong",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "chimaera": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:chimaera-node/cli"
+  },
+  "keywords": [
+    "devops",
+    "toolchain",
+    "multi-repo",
+    "workspace tooling",
+    "test runner",
+    "environment management",
+    "version control",
+    "package management",
+    "dependency management",
+    "deployment",
+    "git",
+    "npm"
+  ],
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "execa": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "nodegit": "0.26.x",
+    "p-retry": "^4.2.0",
+    "progress": "^2.0.3",
+    "rubico": "latest",
+    "semver": "^7.1.3"
+  }
+}
