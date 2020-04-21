@@ -4,8 +4,8 @@
 ## Configuration
 Environment
 ```
-# :-delimited list of paths for slm operation
-# slm will recursively search these paths for modules
+# :-delimited list of paths for chimaera operation
+# chimaera will recursively search these paths for modules
 export CHIMAERA_PATH=/path/to/workspace1:/path/to/workspace2:/path/to/single/module
 ```
 
