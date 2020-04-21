@@ -672,7 +672,7 @@ const main = _.flow(
 )
 
 main({
-  paths: _.split(':')(process.env.SLM_PATH || process.env.HOME),
+  paths: _.split(':')(process.env.CHIMAERA_PATH || process.env.HOME),
   command: _.get(2)(process.argv),
   argv: _.slice(3)(process.argv),
   usage: USAGE,
